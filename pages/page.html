@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/page.css">
+    <title>Project-page</title>
+</head>
+<body>
+    <header id="header-top">
+    <a id="brand" href="/index.html">Ent</a>
+    <p id="search" href="#">🔍︎ Поиск</p>
+  </header>
+
+  <nav>
+    <div id="navbar-collapse">
+      <ul class="navbar">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="home" href="/index.html">Навигация</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="#">Навигация</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Навигация</a>
+        </li>
+        <li class="nav-item last">
+          <a class="nav-link" id="last-link" href="#">Вход ➜]</a>
+          <dialog id="login">
+            <h2>Регистрация</h2>
+            <button type="submit" id="btn-close">✖</button>
+
+            <label for="logname"><span>*</span>Ваш логин</label>
+            <input type="text" id="logname" placeholder="login" required focus> 
+
+            <label for="lognumber"><span>*</span>Номер телефона</label>
+            <input type="telephone" id="lognumber" placeholder="+7" required> 
+            
+
+            <label for="logemail">Email</label>
+            <input type="email" id="logemail" placeholder="email"> 
+
+            <label for="logpassword"><span>*</span>Пароль</label>
+            <input type="password" id="logpassword" placeholder="•••••••" required> 
+
+            <button type="submit" id="btn-login">Войти</button>
+          </dialog>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <main>
+        <section id="action">
+            <div id="side-left">
+                <div id="header-left">
+                    <h1>Заголовок</h1>
+                    <div class="item-header">
+                        <h3>Действие</h3>
+                        <div class="line"></div>
+                    </div>
+                    <div class="item-header">
+                        <h3>Действие</h3>
+                        <div class="line"></div>
+                    </div>
+                    <div class="item-header">
+                        <h3>Действие</h3>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div id="choise">
+                    <div id="switch"></div>
+                    <input id="choise-right" type="submit" value="Право">
+                    <input id="choise-left" type="submit" value="Лево">
+                </div>
+                <div id="text">
+                    <div class="lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolores! Similique modi ad, earum vero nisi fugit doloremque illo obcaecati, ullam, delectus distinctio veritatis asperiores repudiandae. Sequi ea enim accusamus?
+                    </div>
+                    <div class="lorem">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, dolores! Similique modi ad, earum vero nisi fugit doloremque illo obcaecati, ullam, delectus distinctio veritatis asperiores repudiandae. Sequi ea enim accusamus?
+                    </div>
+                </div>
+                
+            </div>
+            <!--⏷-->
+            <div id="side-right">
+                <div class="item-right" id="menu">
+                    <p id="header">Необходимые вещи
+                            <input type="submit" value="▲"></p>
+                    <ul>
+                        <li class="menu-item">Первая необходимая вещь</li>
+                        <li class="menu-item">Вторая необходимая вещь</li>
+                        <li class="menu-item">Третья необходимая вещь</li>
+                        <li class="menu-item">Четвертая необходимая вещь</li>
+                        <li class="menu-item">Пятая необходимая вещь</li>
+                    </ul>
+                    <div class="line" id="line"></div>
+                    <a id="after-menu">Информация</a>
+                </div>
+                <div class="item-right">
+                    <p>Как определить вещь</p>
+                    <p>�
+                        <dialog>
+                            
+                        </dialog>
+                    </p>
+                </div>
+                <div class="item-right">
+                    <p>Некая дополнительная полезная информация для элемента слева, которая может предупреждать об негативных развитиях событий связанных с этим элементом</p>
+                </div>
+            </div>
+        </section>
+        <section id="popular">
+      <header><h2>Популярное</h2></header>
+      <div id="populars">
+        <div class="item-popular">
+          <p class="badge">😉</p>
+          <h3>Популярный продукт</h3>
+          <p class="text-popular">Описание популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">🤔</p>
+          <h3>Популярный продукт</h3>
+          <p class="text-popular">Описание популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">😍</p>
+          <h3>Один из самых популярных продуктов</h3>
+          <p class="text-popular">Описание самого популярного продукта из всех существующих</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">🧐</p>
+          <h3>Некий популярный продукт</h3>
+          <p class="text-popular">Описание некоего популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">🙂</p>
+          <h3>Некий популярный продукт</h3>
+          <p class="text-popular">Описание некоего популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">😞</p>
+          <h3>Некий популярный продукт</h3>
+          <p class="text-popular">Описание некоего популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+        <div class="item-popular">
+          <p class="badge">😑</p>
+          <h3>Некий популярный продукт</h3>
+          <p class="text-popular">Описание некоего популярного продукта этого элемента</p>
+          <input type="button" class="btn-popular" value="Подробнее"> 
+          <img src="/images/popular.png" class="img-popular">
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+		<div class="bottom">
+			<p>© 2025«Ent». По вопросам сопровождения сайта обращайтесь www@ent.ru</p>
+		</div>
+	</footer>
+    <script src="/scripts/page.js"></script>
+</body>
+</html>
